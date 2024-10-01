@@ -9,11 +9,11 @@
 
 /* HEADER SECTION */
   .header {
-    background-color: #f1f1f1;
+    background-color: #869DE9;
     padding: 30px;
     text-align: left;
     font-size: 35px;
-    background-color:#bbb;
+    background-color:#869DE9;
     background-size: cover;
   }
   
@@ -30,7 +30,7 @@
         margin-top: 2%;
     }
 
-    /* login */
+    /* login & logout */
     #login-container{
         display: flex;
         justify-content: right;
@@ -79,20 +79,20 @@
   /* Bottom column */
   .column.bottom
     {
-        background-color: #f1f1f1;
+        background-color: #f399A2;
         padding: 20px;
         text-align: left;
         font-size: 20px;
-        background-color:#bbb;
+        background-color:#f399A2;
         background-size: cover;
         margin-left: 2%;
         margin-right: 2%;
         height: 500px;  /* Change this to get more height */
     }
 
-/* Navagation side bar */
+/* Navigation side bar */
     #nav{
-        background-color: #bbb;
+        background-color: #f399A2;
         font-size: larger;
         width: 10%;
     }
@@ -101,7 +101,7 @@
         color: black;   
     }
     .header a:hover{
-        background-color: #555;
+        background-color: #f399A2;
         color: white;
     }
 
@@ -121,9 +121,9 @@
     text-decoration: none;
   }
   
-  /* Change the link color on hover */
+  /* Change the quick links color on hover */
   li a:hover {
-    background-color: #555;
+    background-color: #5054B9;
     color: white;
   }
 
@@ -213,7 +213,7 @@ img{
 
 .footer-section h3 {
     margin-bottom: 15px;
-    color: #f39c12;
+    color: #5054B9;
 }
 
 .footer-section p, .footer-section ul, .footer-section a {
@@ -237,7 +237,7 @@ img{
 }
 
 .footer-section ul li a:hover {
-    color: #f39c12;
+    color: #fff;
 }
 
 .social a {
@@ -249,7 +249,7 @@ img{
 }
 
 .social a:hover {
-    color: #f39c12;
+    color: #5054B9;
 }
 
 .footer-bottom {
