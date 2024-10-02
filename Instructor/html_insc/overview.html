@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/style/style.css">
+    <link rel="stylesheet" type="text/css" href="/Instructor/style_inc/overview.css">
+    <title>View Classes</title>
+</head>
+<body>
+     <!-- Header -->
+     <div class="header">
+        <!-- Profile icon -->
+        <div id = "profile-container"><a  href="/services/profile.html">Profile</a></div>
+        <!-- Logoin icon -->
+        <div id = "login-container"><a href="/services/login.html">Singout</a></div>
+        <!-- Logo -->
+      <h2>Spartan Motion</h2>
+    <!-- search button -->
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search">Search</i></button>
+        </form>
+        </div>
+    </div>
+    
+    <!-- All the column sections -->
+    <div class="row">
+        <!-- Navigation column -->
+      <div id ="nav", class="column side" >
+        <h2>Navigation</h2>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="#">Classes</a></li>
+            <li><a href="/Instructor/html_insc/create_class.html">Create </a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+      </div>
+      <!-- Middle Section -->
+      <div class="column middle" style="background-color:#bbb;">
+        <div id = "text"></div>
+            <h1> Welcome to Spartan Motion</h1>
+            <p> Spartan Motion is a platform that allows users to track their physical activity and set goals for themselves. Users can track their progress and see how they are improving over time. </p>
+            <p> Users can also connect with other users and see how they are doing. </p>
+            <p> Sign up to train like a Spartan today! </p>
+        </div>
+      </div>
+
+<!-- CONTENT -->
+    <!--Bottom  Section  -->
+    <div class="container">
+        <h1>My Created Fitness Classes</h1>
+        
+        <a href="create_class.html" class="create-class">Create New Class</a>
+        
+        <div class="class-grid">
+            <!-- Example of a class card with reviews and signups -->
+            <div class="class-card">
+                <div class="class-header">
+                    <h3>Yoga</h3>
+                    <button class="toggle-info">Show Info</button>
+                </div>
+                <div class="class-details">
+                    <p><span>Instructor:</span> Sarah Johnson</p>
+                    <p><span>Duration:</span> 60 minutes</p>
+                    <p><span>Level:</span> Beginner</p>
+                    <p><span>Description:</span> A relaxing yoga class focused on flexibility and breath control.</p>
+
+                    <div class="signups">
+                        <p><span>People Signed Up:</span> 25</p>
+                    </div>
+
+                    <div class="reviews">
+                        <p><span>Reviews:</span></p>
+                        <p><span class="rating">★★★★☆</span> - "Great class, very relaxing!"</p>
+                        <p><span class="rating">★★★★★</span> - "Perfect for beginners!"</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="class-card">
+                <div class="class-header">
+                    <h3>Spin Class</h3>
+                    <button class="toggle-info">Show Info</button>
+                </div>
+                <div class="class-details">
+                    <p><span>Instructor:</span> James Wilson</p>
+                    <p><span>Duration:</span> 45 minutes</p>
+                    <p><span>Level:</span> Intermediate</p>
+                    <p><span>Description:</span> A high-intensity spin class designed to boost cardiovascular fitness.</p>
+
+                    <div class="signups">
+                        <p><span>People Signed Up:</span> 30</p>
+                    </div>
+
+                    <div class="reviews">
+                        <p><span>Reviews:</span></p>
+                        <p><span class="rating">★★★☆☆</span> - "Good workout, but could be tougher."</p>
+                        <p><span class="rating">★★★★★</span> - "Challenging and fun!"</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="class-card">
+                <div class="class-header">
+                    <h3>Kickboxing</h3>
+                    <button class="toggle-info">Show Info</button>
+                </div>
+                <div class="class-details">
+                    <p><span>Instructor:</span> Emily Davis</p>
+                    <p><span>Duration:</span> 50 minutes</p>
+                    <p><span>Level:</span> Advanced</p>
+                    <p><span>Description:</span> An energetic kickboxing class for those looking to challenge themselves.</p>
+
+                    <div class="signups">
+                        <p><span>People Signed Up:</span> 18</p>
+                    </div>
+
+                    <div class="reviews">
+                        <p><span>Reviews:</span></p>
+                        <p><span class="rating">★★★★★</span> - "Loved the intensity!"</p>
+                        <p><span class="rating">★★★★☆</span> - "Really pushed me, great class."</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+
+    
+
+<!-- Footer -->
+
+   <footer> 
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>We are dedicated to providing the best services and products for our customers. Stay connected for updates and special offers.</p>
+            </div>
+            
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-phone"></i> +1 (234) 567-890</p>
+                <p><i class="fas fa-envelope"></i> info@example.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> 1234 Street Name, City, Country</p>
+            </div>
+            
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 Your Website Name. All Rights Reserved.</p>
+        </div>
+    </div>
+   </footer>
+   
+</body>
+
+<script>
+    // JavaScript to toggle class details visibility
+    document.querySelectorAll('.toggle-info').forEach(button => {
+        button.addEventListener('click', function() {
+            const classCard = this.closest('.class-card');
+            classCard.classList.toggle('expanded');
+            this.textContent = classCard.classList.contains('expanded') ? 'Hide Info' : 'Show Info';
+        });
+    });
+</script>
+</html>

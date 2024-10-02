@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Instructor Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 60px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-size: 16px;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        input[type="text"], 
+        input[type="email"], 
+        textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        input[type="file"] {
+            margin-bottom: 20px;
+        }
+
+        textarea {
+            height: 150px;
+            resize: none;
+        }
+
+        .submit-btn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+
+        .profile-pic-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .change-pic {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .change-pic:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        #exit{
+            display: inline-block;
+            width: fit-content;
+            float: right;
+            padding: 2%;
+            height: fit-content;
+            background-color: #f44336;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-align: center;
+        }
+        #exit:hover{
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <a id="exit" href="/Instructor/html_insc/Instructor_home.html">X</a>
+        <h1>Edit Instructor Profile</h1>
+
+        <form action="/update_profile" method="post" enctype="multipart/form-data">
+            
+            <!-- Profile Picture -->
+            <div class="profile-pic-container">
+                <img src="path-to-profile-pic.jpg" alt="Profile Picture" class="profile-pic">
+                <label for="profile-pic" class="change-pic">Change Profile Picture</label>
+                <input type="file" id="profile-pic" name="profile-pic" accept="image/*">
+            </div>
+
+            <!-- Name -->
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" value="John Doe">
+
+            <!-- Email -->
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" value="johndoe@example.com">
+
+            <!-- Bio -->
+            <label for="bio">Bio</label>
+            <textarea id="bio" name="bio" placeholder="Tell us about yourself...">I am a certified fitness instructor with 10 years of experience in yoga, pilates, and weight training.</textarea>
+
+            <!-- Submit Button -->
+            <button type="submit" class="submit-btn">Save Changes</button>
+        </form>
+    </div>
+
+</body>
+</html>
