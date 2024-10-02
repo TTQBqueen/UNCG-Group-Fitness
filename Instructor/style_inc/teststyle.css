@@ -4,17 +4,23 @@
   
   body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color:#F5F7FA;
   }
   
 
 /* HEADER SECTION */
   .header {
-    background-color: #f1f1f1;
+    font-family: 'Corben', Georgia, Times, serif;
     padding: 30px;
     text-align: left;
     font-size: 35px;
-    background-color:#bbb;
+    opacity: 0.5;
     background-size: cover;
+    margin: 1%;
+    background-color:#5054B9;
+    color: #F5F7FA;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
   }
   
     /* search  */
@@ -28,6 +34,7 @@
         display: flex;
         justify-content: right;
         margin-top: 2%;
+        
     }
 
     /* login */
@@ -35,6 +42,7 @@
         display: flex;
         justify-content: right;
         margin-top: 2%;
+        color: #F5F7FA;
     }
 
 /* COLUMS */
@@ -79,7 +87,7 @@
   /* Bottom column */
   .column.bottom
     {
-        background-color: #f1f1f1;
+        
         padding: 20px;
         text-align: left;
         font-size: 20px;
@@ -98,11 +106,11 @@
     }
     .header a{
         text-decoration: none;
-        color: black;   
+        color: black;  
+        color: #F5F7FA; 
     }
     .header a:hover{
         background-color: #555;
-        color: white;
     }
 
 
@@ -194,7 +202,7 @@ img{
 
 /* FOOTER */
   footer {
-    background-color: #333;
+    background-color: #869De9;
     color: white;
     padding: 20px 0;
     margin-top: 2%;
@@ -213,7 +221,7 @@ img{
 
 .footer-section h3 {
     margin-bottom: 15px;
-    color: #f39c12;
+    color: #5054B9;
 }
 
 .footer-section p, .footer-section ul, .footer-section a {
@@ -237,7 +245,7 @@ img{
 }
 
 .footer-section ul li a:hover {
-    color: #f39c12;
+    color: #5054B9;
 }
 
 .social a {
@@ -249,21 +257,19 @@ img{
 }
 
 .social a:hover {
-    color: #f39c12;
+    color: #5054B9;
 }
 
 .footer-bottom {
     text-align: center;
     padding: 10px;
-    background-color: #222;
+    background-color: #5054B9;
 }
 
 .footer-bottom p {
     margin: 0;
 }
-.header{
-    margin: 1%;
-}
+
 footer{
     margin: 1%;
 }

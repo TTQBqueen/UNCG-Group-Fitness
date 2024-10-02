@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create class</title>
+    <link rel="stylesheet" type="text/css" href="/style/style.css">
+    <link rel="stylesheet" type="text/css" href="/Instructor/style_inc/create.css">
+</head>
+<body>
+    <div class="form-container">
+        <a id ="cancel_button" href="/Instructor/html_insc/overview.html">X</a>
+        <h2>Create New Fitness Class</h2>
+        
+
+        <form action="/submit-class" method="post">
+            <div class="form-group">
+                <label for="className">Class Name</label>
+                <input type="text" id="className" name="className" placeholder="Enter class name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="instructorName">Instructor Name</label>
+                <input type="text" id="instructorName" name="instructorName" placeholder="Enter instructor name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="duration">Class Duration (in minutes)</label>
+                <input type="number" id="duration" name="duration" placeholder="Enter class duration" required>
+            </div>
+
+            <div class="form-group">
+                <label for="level">Class Level</label>
+                <select id="level" name="level" required>
+                    <option value="Beginner">Beginner</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <option value="Advanced">Advanced</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="description">Class Description</label>
+                <textarea id="description" name="description" placeholder="Enter class description" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="image">Class Image (optional)</label>
+                <input type="text" id="image" name="image" placeholder="Enter image URL">
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Create Class</button>
+                
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
