@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fa; /* Light background for the whole page */
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3 {
+    color: #5054b9; /* Darker blue for headings */
+}
+
+p {
+    color: #5054b9;
+}
+
+/* Form Styling */
+form {
+    border: 3px solid #f1f1f1;
+    padding: 20px;
+    background-color: #f5f7fa;
+}
+
+/* Profile Container Styling */
+.profile-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #5054b9;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #8ab7f6; /* Lighter blue background for profile card */
+}
+
+.update-picture {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5054b9; /* Background color */
+    color: #f5f7fa; /* Text color */
+    border-radius: 15px; /* Rounded corners */
+    text-align: center;
+    cursor: pointer; /* Changes cursor to pointer to indicate it's clickable */
+    margin-top: 10px; /* Adds space from the profile picture */
+    font-size: 14px; /* Adjust text size */
+}
+
+.update-picture:hover {
+    background-color: #689de9; /* Hover effect */
+}
+
+.profile-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #5054b9; /* Border around the profile picture */
+}
+
+.profile-container h2, .profile-container p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.completed-classes h3 {
+    margin-top: 20px;
+    color: #5054b9; /* Darker blue for the class heading */
+}
+
+.completed-classes ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.completed-classes ul li {
+    background-color: #f5f7fa;
+    color: #5054b9;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #5054b9;
+    color: #f5f7fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #f5f7fa;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #689de9; /* Light blue hover effect for footer links */
+}
