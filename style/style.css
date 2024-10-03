@@ -213,7 +213,7 @@ img{
 
 .footer-section h3 {
     margin-bottom: 15px;
-    color: #869de9;
+    color: #788bed;
 }
 
 .footer-section p, .footer-section ul, .footer-section a {
@@ -237,7 +237,7 @@ img{
 }
 
 .footer-section ul li a:hover {
-    color: #5054b9;
+    color: #5b74e2;
 }
 
 .social a {
@@ -249,7 +249,7 @@ img{
 }
 
 .social a:hover {
-    color: #869de9;
+    color: #5255aa;
 }
 
 .footer-bottom {
