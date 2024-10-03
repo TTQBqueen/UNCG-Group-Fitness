@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="/Instructor/style_inc/teststyle.css">
+    <link rel="stylesheet" type="text/css" href="/Instructor/style_inc/styleing_insc.css">
     <link rel="stylesheet" type="text/css" href="/Instructor/style_inc/inc-style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,58 +11,74 @@
    
     </head>
     <body>
-    
+   
     <!-- Header -->
     <div class="header">
-        <!-- Profile icon -->
-        <div id = "profile-container"><a  href="/services/profile.html">Profile</a></div>
-        <!-- Logoin icon -->
-        <div id = "login-container"><a href="/services/login.html">Singout</a></div>
-        <!-- Logo -->
-      <h2>Spartan Motion</h2>
-    <!-- search button -->
-      <div class="search-container">
-        <form action="/action_page.php">
-          <input type="text" placeholder="Search.." name="search">
-          <button type="submit"><i class="fa fa-search">Search</i></button>
-        </form>
+        <!-- Profile & Login Section -->
+        <div class="user-options">
+            <div id="profile-container"><a href="/Instructor/html_insc/profile_inc.html">Profile</a></div>
+            <div id="login-container"><a href="/index.html">Sign Out</a></div>
+        </div>
+        <!-- Logo Section -->
+        <h2 class="logo">Spartan Motion</h2>
+    
+        <!-- Search Section -->
+        <div class="search-container">
+            <form >
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search">Search</i></button>
+            </form>
         </div>
     </div>
-    
+
+
+
+
     <!-- All the column sections -->
     <div class="row">
+
+
         <!-- Navigation column -->
-      <div id ="nav", class="column side" >
-        <h2>Navigation</h2>
-        <ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/Instructor/html_insc/overview.html">Classes</a></li>
-            <li><a href="/Instructor/html_insc/create_class.html">Create </a></li>
-            <li><a href="#">About</a></li>
-          </ul>
-      </div>
-      <!-- Middle Section -->
-      <div class="column middle" style="background-color:#bbb;">
-        <div id = "text"></div>
-            <h1> Welcome to Spartan Motion</h1>
-            <p> </p>
+
+        <div id="nav" class="column_side">
            
-            <iframe id = "calendar" src="https://calendar.google.com/calendar/embed?src=YOUR_CALENDAR_ID&ctz=America/New_York"
-            style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        
+            
+            <!-- Navigation Menu -->
+            <ul id="links">
+                <li><a href="/Instructor/html_insc/instructor_home.html">Home</a></li>
+                <li><a href="/Instructor/html_insc/overview.html">Classes</a></li>
+                <li><a href="/Instructor/html_insc/create_class.html">Create</a></li>
+            </ul>
+        </div>
+
+
+
+      <!-- Middle Section -->
+      <div class="column middle">
+        
+            <h1> Welcome to Spartan Motion INSTRUCTOR</h1>
+            <div id = "text">
+            <p>Here you can view and create classes for UNCG students. </p>
+            <p>Click on the "Classes" tab to view all the classes available for students to sign up for.</p>
+            <p>Click on the "Create" tab to create a new class for students to sign up for.</p>
+            </div>
+            <h1>Newly Added UNCG Group Fitness Classes</h1>
+           
     
         </div>
       </div>
 
 <!-- CONTENT -->
     <!--Bottom  Section  -->
-    <h1 style="text-align:center; padding: 20px;">Newly Added UNCG Group Fitness Classes</h1>
     
     <div class="container">
 
         <div class="class-card">
-            <img src="/Instructor/img_insc/gym_guy.jpg" alt="Yoga Class" class="class-img">
+            <img src="/Instructor/img_insc/yoga_1.jpeg" alt="Yoga Class" class="class-img">
             <div class="class-details">
                 <h3>Yoga</h3>
+                <p>Date: 10/10/2024</p>
                 <p>Duration: 60 mins</p>
                 <p>Level: Beginner</p>
                 <p class="instructor">Instructor: Sarah Johnson</p>
@@ -74,6 +90,7 @@
             <img src="/Instructor/img_insc/gym_guy.jpg" alt="Spin Class" class="class-img">
             <div class="class-details">
                 <h3>Spin Class</h3>
+                <p>Date: 10/10/2024</p>
                 <p>Duration: 45 mins</p>
                 <p>Level: Intermediate</p>
                 <p class="instructor">Instructor: James Wilson</p>
@@ -82,9 +99,10 @@
         </div>
 
         <div class="class-card">
-            <img src="/Instructor/img_insc/gym_guy.jpg" alt="Kickboxing Class" class="class-img">
+            <img src="/Instructor/img_insc/kickbox_1.jpeg" alt="Kickboxing Class" class="class-img">
             <div class="class-details">
                 <h3>Kickboxing</h3>
+                <p>Date: 10/10/2024</p>
                 <p>Duration: 50 mins</p>
                 <p>Level: Advanced</p>
                 <p class="instructor">Instructor: Emily Davis</p>
@@ -139,6 +157,4 @@
    
 
 </body>
-
-
 </html>

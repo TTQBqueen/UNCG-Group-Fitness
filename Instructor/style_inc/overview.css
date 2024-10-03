@@ -1,26 +1,13 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
-}
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
     padding: 20px;
 }
 
-h1 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 30px;
-}
 
 .create-class {
     display: block;
     text-align: center;
-    background-color: #4CAF50;
+    background-color: #869de9;
     color: white;
     padding: 12px;
     text-decoration: none;
@@ -29,10 +16,12 @@ h1 {
     width: 200px;
     margin-left: auto;
     margin-right: auto;
+    height: fit-content;
+    width: fit-content;
 }
 
 .create-class:hover {
-    background-color: #45a049;
+    background-color: #272855;
 }
 
 .class-grid {
@@ -53,6 +42,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: auto;
 }
 
 .class-card:hover {
@@ -63,8 +53,11 @@ h1 {
     padding: 15px;
     background-color: #f4f4f4;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
+    height: auto;
+    margin: 2%;
 }
 
 .class-header h3 {
@@ -73,14 +66,19 @@ h1 {
 }
 
 .toggle-info {
-    background-color: #4CAF50;
+    background-color: #f399a2;
+    font-size: large;
     color: white;
     padding: 6px 12px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 5%;
 }
+.toggle-info:hover {
+    background-color: #c8c5c5;
 
+}
 .class-details {
     display: none;
     padding: 15px;
@@ -110,7 +108,4 @@ h1 {
 
 .expanded .class-details {
     display: block;
-}
-#calendar{
-    width:100%;
 }
