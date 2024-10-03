@@ -1,0 +1,32 @@
+.details_container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+#edit, #delete{
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    border-radius: 10%;
+}
+.class_buttton{
+   width: auto;
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+#edit:hover, #delete:hover{
+    opacity: 1;
+}
+#edit{
+    background-color: #869de9;
+}
+#delete{
+    background-color: #f399a2;
+}
