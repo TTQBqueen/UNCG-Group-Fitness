@@ -3,9 +3,7 @@
 <html lang="en">
 
 <head>
-
-    <link rel="stylesheet" type="text/css" href="/style/nav.css"> 
-
+    <link rel="stylesheet" type="text/css" href="style/style.css">
     <meta charset="UTF-8">
     <title>Welcome</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,82 +11,45 @@
     </head>
     <body>
     
-     <!-- Header -->
-     <div class="header">
-        <!-- Profile & Login Section -->
-        <div class="user-options">
-            <div id="profile-container"><a href="/index.html">Home</a></div>
-            <div id="login-container"><a href="/services/login.html">Login</a></div>
-        </div>
-        <!-- Logo Section -->
-        <h2 class="logo">Spartan Motion</h2>
-    
-        <!-- Search Section -->
-        <div class="search-container">
-            <form >
-                <input type="text" placeholder="Search.." name="search">
-                <button type="submit"><i class="fa fa-search">Search</i></button>
-            </form>
+    <!-- Header -->
+    <div class="header">
+        <!-- Logoin icon -->
+        <div id = "login-container"><a href="/services/login.html">Login</a></div>
+        <!-- Logo -->
+      <h2>Spartan Motion</h2>
+    <!-- search button -->
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search">Search</i></button>
+        </form>
         </div>
     </div>
     
-
-
-
-<!-- All the column sections -->
-<div class="row">
-
-
-    <!-- Navigation column -->
-
-    <div id="nav" class="column_side">
-       
-        <!-- Navigation Menu -->
-        <ul id="links">
+    <!-- All the column sections -->
+    <div class="row">
+        <!-- Navigation column -->
+      <div id ="nav", class="column side" >
+        <h2>Navigation</h2>
+        <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="privacypolicy.html">Privacy Policy</a></li>
         </ul>
-    </div>
-
-
-
+      </div>
       <!-- Middle Section -->
-      <div class="column middle">
-        <div id = "text">
-   
-            <h1> Welcome to Spartan Motion</h1>
-            <p> Spartan Motion is a platform that allows users to track their physical activity and set goals for themselves. Users can track their progress and see how they are improving over time. </p>
-            <p> Users can also connect with other users and see how they are doing. </p>
-            <p><a href="/services/signup.html">Sign up</a> to train like a Spartan today! </p>
+      <div class="column middle" style="background-color:#F5F7FA;">
+        <div id = "text"></div>
+            <h1> About Spartan Motion </h1>
+            <p> Spartan Motion is a platform that was created to help students exercise and stay fit without the stress of worrying about schedule conflicts.</p>
+            <p> Our application is designed for UNCG students specifically, so they can connect with different fitness instructors at UNCG. </p>
+            <p> Spartan Motion allows students who have completed fitness classes to write a review upon completion. For more information about our comment guides, please visit our <a href="privacypolicy.html">Privacy Policy</a> page. </p>
         </div>
-        </div>
-
       </div>
 
 <!-- CONTENT -->
     <!--Bottom  Section  -->
-    <div class="slider">
-        <div class="slides">
-            <!-- First image -->
-            <div class="slide">
-                <img src="/image/gym_girl1.jpeg" alt="Image 1">
-            </div>
-            <!-- Second image -->
-            <div class="slide">
-                <img src="/image/gym_guy.jpg" alt="Image 2">
-            </div>
-            <!-- Third image -->
-            <div class="slide">
-                <img src="/image/gym_girl2.jpeg" alt="Image 3">
-            </div>
-            <!-- Fourth image -->
-            <div class="slide">
-                <img src="/image/gym_person2.jpeg" alt="Image 4">
-            </div>
-        </div>
-    </div>
 
 <!-- Footer -->
 

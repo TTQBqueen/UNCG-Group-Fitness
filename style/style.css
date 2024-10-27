@@ -1,6 +1,36 @@
 
+/* HEADER SECTION */
+  .header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: left;
+    font-size: 40px;
+    color: #f5f7FA;
+    background-color:#5054b9;
+    background-size: cover;
+  }
+  
+    /* search  */
+    .search-container{
+        display: flex;
+        justify-content: right;
+        margin-top: 2%;
+    }
+    /* profle */
+    #profile-container{
+        display: flex;
+        justify-content: right;
+        margin-top: 2%;
+    }
 
-/* COLUMS */
+    /* login */
+    #login-container{
+        display: flex;
+        justify-content: right;
+        margin-top: 2%;
+    }
+
+/* COLUMNS */
 
   /* Container for flexboxes */
   .row {
@@ -53,9 +83,9 @@
         height: 500px;  /* Change this to get more height */
     }
 
-/* Navagation side bar */
+/* Navigation side bar */
     #nav{
-        background-color: #bbb;
+        background-color: #869de9;
         font-size: larger;
         width: 10%;
     }
@@ -64,7 +94,7 @@
         color: black;   
     }
     .header a:hover{
-        background-color: #555;
+        background-color: #555555;
         color: white;
     }
 
@@ -86,7 +116,7 @@
   
   /* Change the link color on hover */
   li a:hover {
-    background-color: #555;
+    background-color: #2a2a7b;
     color: white;
   }
 
