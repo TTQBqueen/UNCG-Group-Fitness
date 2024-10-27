@@ -1,41 +1,4 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
 
-/* HEADER SECTION */
-  .header {
-    background-color: #f1f1f1;
-    padding: 30px;
-    text-align: left;
-    font-size: 35px;
-    background-color:#bbb;
-    background-size: cover;
-  }
-  
-    /* search  */
-    .search-container{
-        display: flex;
-        justify-content: right;
-        margin-top: 2%;
-    }
-    /* profle */
-    #profile-container{
-        display: flex;
-        justify-content: right;
-        margin-top: 2%;
-    }
-
-    /* login */
-    #login-container{
-        display: flex;
-        justify-content: right;
-        margin-top: 2%;
-    }
 
 /* COLUMS */
 
@@ -198,6 +161,7 @@ img{
     color: white;
     padding: 20px 0;
     margin-top: 2%;
+    height: fit-content;
 }
 
 .footer-content {
