@@ -1,48 +1,21 @@
-/* Slider Container */
-.slider {
-    margin: 5%;
-    width: 100%;
-    width: 800px; /* Adjust the max width */
-    height: 500px;     /* Adjust the height */
-    overflow: hidden;  /* Hide anything outside the container */
-    position: relative;
-    margin: 0 auto;
+/* Image Container */
+.image_container {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(4, 1fr); /* Create 4 equal columns */
+    width: 100%; /* Full width */
+    height: 500px; /* Fixed height */
+    gap: 10px; /* Space between images */
+    overflow: hidden; /* Hide any overflow */
+    margin: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* Slides Container */
-.slides {
-    margin: 5%;
-    display: flex;
-    width: 400%;  /* Total width for 4 images (100% * 4) */
-    height: 100%;
-    animation: slide 40s infinite; /* Time for the full slide cycle */
-}
-
-/* Individual Slide */
-.slide {
-    margin: 4%;
-    width: 100%;  /* Each slide takes up 100% of the parent width */
-    flex-shrink: 0; /* Prevents the slides from shrinking */
+    padding: 5px;
 }
 
 /* Image Styling */
-.slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.image_container img {
+    width: 100%; /* Full width of grid cell */
+    height: 100%; /* Full height of grid cell */
+    object-fit: cover; /* Ensure image covers the entire space */
     border-radius: 10px;
-}
-
-/* Keyframes for sliding animation */
-@keyframes slide {
-    0% { transform: translateX(0); }
-    25% { transform: translateX(-100%); } /* Move to second image */
-    50% { transform: translateX(-200%); } /* Move to third image */
-    75% { transform: translateX(-300%); } /* Move to fourth image */
-    100% { transform: translateX(0); }   /* Move back to first image */
-}
-.row{
-    margin-bottom: 5%;
 }
