@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="../style/style.css">
+    <link rel="stylesheet" type="text/css" href="../style/nav.css">
     <meta charset="UTF-8">
     <title>Customer Homepage</title>
 </head>
@@ -20,27 +20,28 @@
     
     <!-- Header -->
     <div class="header">
-        <!-- Profile icon -->
-        <div id = "profile-container"><a  href="/services/profile.html">Profile</a></div>
-        <!-- Logout icon -->
-        <div id = "login-container"><a href="../index.html">Logout</a></div>
-        <!-- Logo -->
-      <h2>Spartan Motion</h2>
-    <!-- search button -->
-      <div class="search-container">
-        <form action="/action_page.php">
-          <input type="text" placeholder="Search.." name="search">
-          <button type="submit"><i class="fa fa-search">Search</i></button>
-        </form>
+        <!-- Profile & Login Section -->
+        <div class="user-options">
+            <div id="profile-container"><a href="/services/profile.html">Profile</a></div>
+            <div id="login-container"><a href="../index.html">Logout</a></div>
+        </div>
+        <!-- Logo Section -->
+        <h2 class="logo">Spartan Motion</h2>
+    
+        <!-- Search Section -->
+        <div class="search-container">
+            <form >
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search">Search</i></button>
+            </form>
         </div>
     </div>
     
     <!-- All the column sections -->
     <div class="row">
         <!-- Navigation column -->
-      <div id ="nav", class="column side" >
-        <h2>Navigation</h2>
-        <ul>
+      <div id ="nav" class="column_side" >
+        <ul id ="links">
             <li><a href="customer_home.html">Home</a></li>
             <li><a href="classes.html">Classes</a></li>
             <li><a href="../about.html">About</a></li>
@@ -49,13 +50,14 @@
         </ul>
       </div>
       <!-- Middle Section -->
-      <div class="column middle" style="background-color:#F5F7FA;">
-        <div id = "text"></div>
-            <h1> Welcome to Spartan Motion, Student!</h1>
-            <p> To see see the most recent classes available, click <a href="classes.html">here</a>! </p>
-            <h2> Train like a Spartan today! </h2>
-            <p> We apprecitate each and every one of our hard working Spartan Students! </p>
-            <img src="image/peopleingym.jpg" alt="gym" style="width:100%; height: auto;"">
+      <div class="column middle">
+            <div id = "text">
+                <h1> Welcome to Spartan Motion, Student!</h1>
+                <p> To see see the most recent classes available, click <a href="classes.html">here</a>! </p>
+                <h2> Train like a Spartan today! </h2>
+                <p> We apprecitate each and every one of our hard working Spartan Students! </p>
+                <img src="image/peopleingym.jpg" alt="gym" style="width:100%; height: auto;"">
+            </div>
         </div>
       </div>
 

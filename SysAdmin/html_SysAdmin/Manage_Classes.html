@@ -3,34 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-<!--Landing page for all users-->
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <link rel="stylesheet" type="text/css" href="/style/style.css">
-    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../../style/nav.css">
+
     <title>Welcome</title>
 </head>
-<body>
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-    <title>CSS Template</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-   
-    </head>
+
     <body>
     
     <!-- Header -->
     <div class="header">
-
         <!-- Logoin icon -->
-        <div id = "login-container"><a href="/services/login.html">Login</a></div>
+        <div id = "login-container"><a href="/index.html">Logout</a></div>
         <!-- Logo -->
       <h2>Spartan Motion</h2>
     <!-- search button -->
@@ -45,9 +29,8 @@
     <!-- All the column sections -->
     <div class="row">
         <!-- Navigation column -->
-      <div id ="nav", class="column side" >
-        <h2>Navigation</h2>
-        <ul>
+      <div id ="nav", class="column_side" >
+        <ul id="links">
             <li><a href="/SysAdmin/html_SysAdmin/Sys_AdminHomepage.html">Home</a></li>
             <li><a href="/SysAdmin/html_SysAdmin/Manage_Users.html">Manage Users</a></li>
             <li><a href="/SysAdmin/html_SysAdmin/Manage_Classes.html">Manage Classes</a></li>
@@ -56,15 +39,19 @@
           </ul>
       </div>
       <!-- Middle Section -->
-      <div class="column middle" style="background-color:#bbb;">
-        <div id = "text"></div>
-            <h1> Manage Classes</h1>
-            <p> Here you will be able to manage the classes for the users. </p>
-            <p> We will also be able to see a display of the classes that the instructors have posted, which will also display when it was posted, when the class is occurin, and where the event will take place. </p>
-      </div>
+        <div class="column middle">
+            <div id = "text">
+                <h1> Manage Classes</h1>
+                <p> Here you will be able to manage the classes for the users. </p>
+                <p> We will also be able to see a display of the classes that the instructors have posted, which will also display when it was posted, when the class is occurin, and where the event will take place. </p>
+            </div>
+        </div>
     </div> 
 
-    <div class="class-list">
+  <!-- CONTENT -->  
+<!-- Class Information -->
+ 
+    <div class="class_list_container">
         <div class = "class-item"> 
             <h2>Intensive HIIT</h2>
             <p>Instructor Name: Bob James</p>
@@ -73,20 +60,17 @@
             <p>Location: Online Classroom</p>
         </div> 
 
-    <div class="class-list"> 
-        <h2>Yoga</h2>
-            <p>Instructor Name: Jane Smith</p>
-            <p>Date: 2024-12-12</p>
-            <p>Time: 10:00 AM - 12:00 PM</p>
-            <p>Location: Online Classroom</p>
-    
+        <div class="class-item"> 
+            <h2>Yoga</h2>
+                <p>Instructor Name: Jane Smith</p>
+                <p>Date: 2024-12-12</p>
+                <p>Time: 10:00 AM - 12:00 PM</p>
+                <p>Location: Online Classroom</p>
+        </div>
     </div>
 
-<!-- CONTENT -->
+
     <!--Bottom  Section  -->
-      <div class="column-bottom">
-       <img src="/SysAdmin/Sys_Admin_Images/Fitness_girl_image.jpg" alt="running" style="width:100%">
-      </div>
       
     
 <!-- Footer -->
