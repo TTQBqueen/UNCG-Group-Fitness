@@ -2,7 +2,7 @@
 .slider {
     margin: 5%;
     width: 100%;
-    max-width: 800px; /* Adjust the max width */
+    width: 800px; /* Adjust the max width */
     height: 500px;     /* Adjust the height */
     overflow: hidden;  /* Hide anything outside the container */
     position: relative;

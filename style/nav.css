@@ -201,17 +201,29 @@ body {
         margin-right: 20px;
         
     }
-    #text{
-        margin: 10px 5px 15px 10%;
+    /* #text{
         padding: 10px;
         font-size: 20px;
         color: #272855;
         font-family: 'Corben', Georgia, Times, serif;
-        background-image: linear-gradient(to right, #a1a0a0 , #f5f7fa);
+        background-image: linear-gradient(to right, #afafaf , #f5f7fa);
         border-radius: 2px;
         box-shadow: -10px 2px 8px rgba(0, 0, 0, 0.1);
         
     }
+  */
+#text{
+    font-family: 'Corben', Georgia, Times, serif;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 #272855;
+    background-image: none;
+}
+
 h1{
     
     text-align: center;

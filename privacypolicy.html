@@ -3,44 +3,57 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="style/style.css">
+
+    <link rel="stylesheet" type="text/css" href="/style/nav.css"> 
+
     <meta charset="UTF-8">
-    <title>Welcome</title>
+    <title>Policy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
    
     </head>
     <body>
     
-    <!-- Header -->
-    <div class="header">
-        <!-- Logoin icon -->
-        <div id = "login-container"><a href="/services/login.html">Login</a></div>
-        <!-- Logo -->
-      <h2>Spartan Motion</h2>
-    <!-- search button -->
-      <div class="search-container">
-        <form action="/action_page.php">
-          <input type="text" placeholder="Search.." name="search">
-          <button type="submit"><i class="fa fa-search">Search</i></button>
-        </form>
+     <!-- Header -->
+     <div class="header">
+        <!-- Profile & Login Section -->
+        <div class="user-options">
+            <div id="profile-container"><a href="/index.html">Home</a></div>
+            <div id="login-container"><a href="/services/login.html">Login</a></div>
+        </div>
+        <!-- Logo Section -->
+        <h2 class="logo">Spartan Motion</h2>
+    
+        <!-- Search Section -->
+        <div class="search-container">
+            <form >
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search">Search</i></button>
+            </form>
         </div>
     </div>
     
-    <!-- All the column sections -->
-    <div class="row">
-        <!-- Navigation column -->
-      <div id ="nav", class="column side" >
-        <h2>Navigation</h2>
-        <ul>
+
+
+
+<!-- All the column sections -->
+<div class="row">
+
+
+    <!-- Navigation column -->
+
+    <div id="nav" class="column_side">
+       
+        <!-- Navigation Menu -->
+        <ul id="links">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="privacypolicy.html">Privacy Policy</a></li>
         </ul>
-      </div>
+    </div>
       <!-- Middle Section -->
-      <div class="column middle" style="background-color:#F5F7FA;">
-        <div id = "text"></div>
+      <div class="column middle">
+        <div id = "text">
             <h1>Privacy Policy</h1>
             <p><strong>Effective 2024</strong></p>
     
@@ -88,6 +101,7 @@
 
             <p>&copy; 2024 Spartan Motion. All Rights Reserved.</p>
         </div>
+    </div>
       </div>
 
 <!-- CONTENT -->
@@ -137,6 +151,16 @@
    
 
 </body>
-
+<style>
+#text{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-image: none;
+}
+</style>
 
 </html>
